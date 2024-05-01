@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Mulish';
+  src: url('../Fonts/Mulish-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../Fonts/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish_Regular';
+  src: url('../Fonts/Mulish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway_Black';
+  src: url('../Fonts/Raleway-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway_SemiBold';
+  src: url('../Fonts/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish_ExtraBold';
+  src: url('../Fonts/Mulish-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish_SemiBold';
+  src: url('../Fonts/Mulish-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish_Light';
+  src: url('../Fonts/Mulish-Light.ttf') format('truetype');
+}

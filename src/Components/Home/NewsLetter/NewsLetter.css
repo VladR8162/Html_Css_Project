@@ -1,0 +1,123 @@
+.newsletter {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+}
+
+.newsletter_gradient {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 0%;
+  right: 20%;
+  background: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
+  opacity: 0.07;
+  border-radius: 100%;
+  filter: blur(50px);
+  z-index: 0;
+}
+
+.newsletter_left_container {
+  position: relative;
+  width: 23%
+}
+
+.newsletter_tilte {
+  font-family: 'Raleway_SemiBold';
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41.6px;
+  text-align: left;
+}
+
+.newsletter_text {
+  font-family: 'Mulish_Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;  
+  color: #989CAC;
+}
+
+.newsletter_right_container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 68%;
+  max-width: max-content;
+  justify-content: space-between;
+}
+
+.email_input {
+  width: inherit;
+  background-color: #FFFFFF00;
+  border: 2px solid #F8F8FC1A;
+  font-family: 'Mulish_Regular';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  color: #989CAC;
+  transition: transform 0.3s;
+}
+
+.email_input:hover {
+  border: 2px solid #989CAC;
+}
+
+.newsletter_button {
+  padding: 12px 40px;
+  background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
+  border: 0px solid #FFFFFF80;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Mulish_SemiBold';
+  transition: transform 0.3s;
+}
+
+.newsletter_button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.checkbox_label {
+  display: flex;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.newsletter_checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #F8F8FC1A;
+  background-color: #FFFFFF00;
+  cursor: pointer;
+  margin: 0 20px 0 0;
+}
+
+.newsletter_checkbox:checked {
+  background-color: #FFFFFF80;
+}
+
+.newsletter_checkbox_text {
+  margin: 0;
+  font-family: 'Mulish_Regular';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: #989CAC;
+  ;
+}
+
+.newsletter_checkbox_text a {
+  color: #FF455B;
+  ;
+}

@@ -1,0 +1,222 @@
+.blog {
+  width: 100%;
+  max-width: 100%;
+  height: 1000px;
+  position: relative;
+}
+
+.blog_gradient {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  background: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
+  opacity: 0.07;
+  border-radius: 100%;
+  filter: blur(50px);
+  z-index: 0;
+}
+
+.blog_main_comtent {
+  display: inline-block;
+}
+
+.blog_content_container {
+  position: relative;
+}
+
+.blog_content_subtitle {
+  position: relative;
+  left: 25px;
+  font-family: 'Mulish';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #FF455B;
+}
+
+.blog_content_subtitle::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -25px;
+  width: 18px;
+  height: 18px; 
+  background-image: url('/public/img/svg/polygon.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog_content_headline {
+  font-family: 'Raleway';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  margin: 0;
+}
+
+.blog_button {
+  position: absolute;
+  width: 13%;
+  left: 87%;
+  top: 12%;
+  background: #FFFFFF00;
+  border: 0px solid;
+  color: #FFFFFF;
+  font-family: 'Mulish_ExtraBold';
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.blog_button::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 130px;
+  width: 31px;
+  height: 12px; 
+  background-image: url('/public/img/svg/arrow_blog.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog_button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.blog_content_container {
+  margin: 10% 15%;
+}
+
+.blog_img {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.blog_left_content {
+  width: 48%;
+  transition: transform 0.3s;
+}
+
+.blog_left_content::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 31px;
+    height: 12px;
+    opacity: 0.3;
+    background-image: url('/public/img/svg/arrow_blog.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog_right_content {
+  width: 48%;
+  transition: transform 0.3s;
+}
+
+.blog_right_content:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 31px;
+  height: 12px;
+  opacity: 0.3;
+  background-image: url('/public/img/svg/arrow_blog.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.blog_left_content:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.blog_right_content:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.name_date {
+  position: relative;
+  font-family: 'Mulish_Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #989CAC;
+}
+
+.name_date::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 245px;
+  width: 18px;
+  height: 18px; 
+  background-image: url('/public/img/svg/share_logo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img_headline {
+  font-family: 'Raleway_SemiBold';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+.blog_text {
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog_text h2:nth-child(1) {
+  margin: 0;
+  font-family: 'Raleway_Black';
+  font-size: 230px;
+  font-weight: 900;
+  line-height: 230px;
+  text-align: left;  
+  color: #FFFFFF;
+  opacity: 0.03;
+  transform: rotate(-90deg);
+}
+
+.blog_text_1_bg {
+  position: relative;
+  left: 42%;
+  top: -10%;
+}
+
+.blog_text h2:nth-child(2) {
+  margin: 0;
+  font-family: 'Raleway_Black';
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 120px;
+  text-align: left;  
+  color: #FFFFFF;
+  transform: rotate(-90deg);
+}
+
+.blog_text_2_bg {
+  position: relative;
+  left: 47.5%;
+  top: -26%;
+}

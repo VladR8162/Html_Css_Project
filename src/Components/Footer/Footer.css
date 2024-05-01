@@ -1,0 +1,92 @@
+
+.container_footer {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.content_footer {
+  margin: 0 15%;
+}
+
+.top_footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.nav_elements {
+  display: flex;
+  font-family: 'Mulish';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #FFFFFF80;
+  transition: transform 0.3s;
+}
+
+.nav_elements li {
+  padding: 0 6px;
+}
+
+.nav_elements li:hover {
+  color: #FFFFFF;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.bottom_footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.social_footer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  color: #FFFFFF80;
+}
+
+.social_footer ul li:hover {
+  color: #FFFFFF;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.social_footer ul li:nth-child(1)  {
+  padding-right: 5px;
+}
+
+.social_footer ul li:nth-child(2)  {
+  padding: 0 5px;
+}
+
+.social_footer ul li:nth-child(3)  {
+  padding-left: 5px;
+}
+
+.bottom_footer_container h3 {
+  font-family: 'Raleway_SemiBold';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.bottom_footer_container p {
+  font-family: 'Mulish_Regular';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: #989CAC;
+}

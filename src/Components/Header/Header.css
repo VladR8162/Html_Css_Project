@@ -1,0 +1,83 @@
+.container_header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+  z-index: 99;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 97%
+}
+
+.left_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 14%
+}
+
+.burger_menu:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.right_header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+
+.header_button {
+  background-color: #0D0F1600;
+  width: 173px;
+  height: 50px;
+  border: 1px #FFFFFF80 solid;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Mulish';
+  transition: transform 0.3s;
+}
+
+.header_button:hover {
+  border: 1px #FFFFFF solid;
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+.phone_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.phone_link:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.header_phone {
+  position: relative;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'Mulish';
+}
+
+.header_phone:after {
+  content: "";
+  position: absolute;
+  top: -1.5px;
+  left: -30px;
+  width: 24px;
+  height: 25px; 
+  background-image: url('/public/img/svg/smartphone.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
