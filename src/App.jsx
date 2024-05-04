@@ -14,13 +14,13 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <LeftSocialBar/>
       <MainSlider/>
       <Services/>
       <Portfolio/>
       <NewsLetter/>
       <WhatWeDo/>
       <Blog/>
+      <LeftSocialBar/>
       <Footer/>
     </div>
   );
