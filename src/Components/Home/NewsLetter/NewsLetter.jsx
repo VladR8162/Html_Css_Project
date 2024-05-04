@@ -14,7 +14,7 @@ const NewsLetter = () => {
         <button className="newsletter_button">Subscribe</button>
         <label className="checkbox_label">
           <input type="checkbox" className="newsletter_checkbox"/>
-          <p className="newsletter_checkbox_text">I accept all <a href="#">Terms and Conditions</a></p>
+          <p className="newsletter_checkbox_text">I accept all <a href="/terms">Terms and Conditions</a></p>
         </label>
       </div>
     </section>
